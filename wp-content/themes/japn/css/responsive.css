@@ -1,0 +1,790 @@
+@media(min-width:0px) and (max-width:575px){
+.container{ max-width:100%;}
+.common-title-hp h2 { font-size: 22px; line-height: 30px; }
+.common-title-hp p { font-size: 14px; line-height: 20px; padding-top: 10px; }
+
+/*--------------- HEADER_START --------------*/
+#header{ padding:0px; }
+.header-top-in-hp{ padding:0 15px; height:70px; justify-content: space-between; }
+.header-right-hp{ display:none; }
+.mobile-menu-icon-hp{ display:block; margin-top:0px; margin-right:0; }
+.menu-toggle-btn{  margin:16px auto 16px auto;  }
+.navigation { padding: 15px; position: fixed; left: 0; width: 100%; background-color: #20478E; display: none; top: 70px; clear: both; height:calc(100% - 70px); overflow:scroll; }
+.navbar-nav .nav-link{ padding:15px 27px !important; text-align:center;  }
+.navbar-nav .dropdown-item{ text-align:center; }
+.navbar{ border:0; }
+.navbar-light .navbar-nav .nav-link br{ display:none; }
+.navbar-collapse{ display:block !important; }
+.navbar-nav .nav-item{ border:0; width:100%; border:0; height:auto; }
+.navbar-nav .dropdown-item{ font-size:14px; }
+.navbar-nav .nav-link:hover { color: #fff !important; }
+.navbar-nav .nav-link:after{ display:none; }
+.header-bottom-hp{ padding:0; }
+/*--------------- HEADER_END --------------*/
+
+/*--------------- CONTAIN_START --------------*/
+#contain{ margin:0px; padding:70px 0 0 0;}
+.banner-middle-hp{ width:100%; }
+.banner-box-hp{ height:400px; }
+.banner-box-in-hp{ padding:15px; }
+.banner-box-in-hp h1{ width:100%; font-size: 24px; line-height: 45px; }
+.glorious-block-hp{ margin-top:10px; }
+.glorious-overlay-hp{ padding:40px 0; }
+.step-middle-hp{ display:block; }
+.step-box-hp{ width:100%; margin:0; padding:20px 0; }
+.step-title-hp{ margin:0px auto 0 auto;  }
+.glorious-block-left-hp .glorious-middle-hp{ padding:0; }
+.video-block-hp{ padding:40px 0; }
+.play-btn{ width:60px; }
+.play-btn img{ width:100%; }
+.new-left-hp .play-btn img{ width:100%; }
+.video-text-hp{ font-size: 15px; line-height: 20px; }
+.new-block-hp{ padding:40px 0; }
+.common-title-2-hp h2{ font-size: 20px; line-height: 26px; }
+.common-title-2-hp p{ font-size: 14px; line-height: 20px; padding:5px 0 0 0; }
+.new-middle-hp{ padding:30px 0 0 0; display:block; }
+.new-left-hp{ width:100%; margin-bottom:20px; }
+.new-right-hp{ width:100%; }
+.flow-block-hp{ padding:40px 0; }
+.flow-middle-hp{ padding:25px 0 0 0; display:block; }
+.flow-steps-1-hp{ margin:0 0 0 -10px; }
+.flow-steps-hp{ width:100%; max-width:330px; margin:auto; }
+.flow-steps-in-hp{ width:100%; margin:auto; background-size:100%; padding:35px 55px 0 0; height:278px; }
+.flow-number-hp{ width:80px; height:80px; font-size: 16px; line-height: 25px; }
+.flow-name-hp{ font-size: 20px; line-height: 25px; }
+.flow-steps-2-hp .flow-steps-in-hp{ width:100%; background-size: 100%; padding: 35px 55px 0 0; height: 258px; }
+.flow-steps-3-hp .flow-steps-in-hp{ width:100%; background-size: 100%; padding: 35px 55px 0 0; height: 258px; }
+.flow-text-hp{ padding:10px 0 25px 0; font-size:14px; }
+.flow-part-hp{ padding:15px; }
+.flow-part-top-hp{ display:block; }
+.flow-part-left-hp{ margin:auto; }
+.flow-part-right-hp{ width:100%; padding:20px 0 0 0; }
+.flow-part-right-hp h3{ font-size: 16px;  line-height: 26px; }
+.flow-call-hp{ font-size: 28px; line-height: 45px; }
+.flow-call-hp img{ width:17px; }
+.flow-time-hp { font-size: 14px; line-height: 20px; }
+.orange-btn-hp{ min-width:auto; font-size:14px; padding:15px 30px; }
+.map-block-hp iframe{ height:250px; }
+/*--------------- CONTAIN_END --------------*/
+
+/*--------------- FOOTER_START --------------*/
+.footer-links-hp ul li{ font-size: 12px; line-height: 16px; padding: 0px 13px; }
+.footer-links-hp { padding: 16px 0 30px 0; }
+/*--------------- FOOTER_END --------------*/
+
+/*--------------- COURCE_START --------------*/
+.banner-box-ap{ display:block; height:auto; padding:40px 0; }  
+.banner-box-left-ap{ width:100%; }
+.banner-box-left-ap h1{ font-size: 26px; line-height: 36px; }
+.banner-box-right-ap{ width:100%; padding:15px; margin-top:30px; }
+.banner-box-right-ap p{ font-size: 13px; line-height: 24px; }
+.learning-block-ap{ padding:40px 0; }
+.learning-middle-ap{ padding:40px 0 0 0; }
+.learning-img-ap{ width:100%; margin:0 0 15px 0; }
+.blue-title-ap h2{ font-size:20px; line-height:30px; }
+.blue-title-small-in-ap h2{ font-size:16px; }
+.blue-back-title-in-ap h2{font-size: 18px; line-height: 30px; }
+.blue-back-title-ap{ padding:30px 0; }
+.returning-info-ap{ padding:40px 0; }
+.returning-info-ap p { font-size: 13px; line-height: 26px; padding-bottom: 20px; }  
+.timer-main-block-ap{ padding:30px 0; }
+.timer-middle-ap{ display:block; }
+.timer-left-ap{ margin:auto; width:80px; }
+.timer-left-ap:after{ display:none; }
+.timer-right-ap{ width:100%; padding:0; display:block; text-align: center; }
+.timer-right-left-ap{ width:100%; padding:20px 0 20px 0; }
+.timer-right-right-ap{ width:100%; }
+.timer-right-left-ap h2{ font-size:18px; line-height:25px; }
+.timer-right-left-ap p { font-size: 13px; line-height: 28px; }
+.enrollment-main-block-ap{ padding:40px 0 0 0; }
+.enrollment-box-ap{ padding:20px; display:block; margin-bottom:60px; }
+.enrollment-box-ap:after{ bottom:-45px; }
+.enrollment-box-ap:last-child{ margin-bottom:40px; }
+.enrollment-box-ap .flow-number-hp{ margin:auto; }
+.enrollment-text-ap{ width:100%; padding:20px 0 0 0; font-size: 20px; line-height: 30px; }
+.enrollment-desc-ap{ width:100%; padding:20px 0 0 0; text-align:center; font-size: 12px;  line-height: 26px; }
+.domicile-main-block-ap{ padding:40px 0 0 0; }
+.domicile-box-ap .blue-title-small-in-ap h2{ min-width:100%; }
+.domicile-desc-ap{ padding:40px 20px 20px 20px; font-size: 13px; line-height: 28px; }
+.domicile-box-ap{ margin-bottom:25px; }
+.timer-table-ap{ margin:20px auto 0; }
+/*--------------- COURCE_END --------------*/
+
+/*--------------- ACADEMY_START --------------*/
+.learning-block-fp{ padding:30px 0 0 0; }
+.greeting-middle-fp{ display:block; padding:40px 0 0 0; }
+.greeting-left-fp{ width:100%; padding:0px 0 30px 0;  }
+.greeting-left-fp p{ font-size: 13px; line-height: 26px; }
+.greeting-right-fp{ margin:auto; }
+.mission-middle-ap{ padding:40px 0; }
+.mission-middle-ap h3{ font-size: 14px; line-height: 26px; padding-bottom:20px; }
+.mission-middle-ap p { font-size: 13px; line-height: 26px; }
+.staff-middle-fp{ padding:40px 0 0 0; }
+.staff-box-fp { width: calc(50% - 10px); margin-right: 20px; }
+.staff-box-fp:nth-child(3n){ margin-right:20px; }
+.staff-box-fp:nth-child(2n){ margin-right:0px; }
+.staff-info-fp h3{ font-size: 18px; line-height: 26px; }
+.staff-info-fp p{ font-size: 11px; line-height: 20px; }
+.life-main-block-fp{ padding:40px 0; }
+.life-title-fp{ font-size: 20px; line-height: 34px; }
+.life-middle-fp{ padding:0; display:block; }
+.life-left-fp{ width:100%; margin-bottom:20px; }
+.life-left-fp .banner-box-right-ap p{ font-size: 13px; line-height: 24px; }
+.life-right-fp{ margin-bottom:0; }
+.overview-middle-fp{ padding:40px 0; flex-direction: column-reverse; }
+.overview-left-fp{ width:100%; }
+.overview-right-fp{ width:100%; padding:0; }
+.overview-rest-fp { padding: 25px 0 40px 0; }
+.overview-left-fp iframe{ height:300px; max-width:100%; }
+/*--------------- ACADEMY_END --------------*/
+
+/*--------------- ABOUT_START --------------*/
+.tuition-block-atp{ padding:30px 0; }
+.tuition-title-atp { font-size: 14px; line-height: 24px; }
+.tuition-table-atp{ padding:40px 0 0 0; }
+.tuition-info-atp{ margin-bottom:30px; overflow: scroll; }
+.tuition-info-in-atp{ width:970px; }
+.tuition-table-title-atp{ font-size: 16px; line-height: 26px; }
+.tuition-table-left-atp{ font-size:15px; }
+.tuition-info-472-atp .tuition-info-in-atp{ width:472px; }
+.tuition-table-right-atp{ font-size:15px; }
+.yellow-title-atp{ font-size:15px; }
+.plus-icon-atp{ margin:0px 0 25px 0; }
+/*--------------- ABOUT_END --------------*/
+
+/*--------------- ABOUT_LIFE_START --------------*/
+.life-details-adfp{ display:block; }
+.life-details-left-adfp{ width:100%; padding-right:0; font-size: 14px; line-height: 26px; }
+.life-details-right-adfp{ width:100%; margin:20px 0 0 0; }
+.life-details-right-in-adfp{ font-size:14px; }
+.shared-adfp{ font-size: 16px; padding-bottom:5px; line-height: 24px; }
+
+.flow-list-adfp{ display:block; padding-bottom: 30px; }
+.flow-list-left-adfp{ width:100%; padding:0 0 20px 0; }
+.flow-name-adfp{ width:calc(100% - 80px); font-size:18px; }
+.flow-desc-adfp { font-size: 14px;  line-height: 26px; }
+.flow-list-right-adfp{ width:100%; }
+.flow-arrow-adfp{ padding-top:30px; }
+.flow-main-block-adfp{ padding:30px 0 0 0; }
+/*--------------- ABOUT_LIFE_END --------------*/
+
+/*--------------- CORRESPONDS_START --------------*/
+.satellite-block-ccp{ padding:40px 0; } 
+.satellite-title-ccp h2{ font-size: 20px; line-height: 28px; padding:9px 24px; }
+.satellite-title-ccp h3{ font-size: 22px; line-height: 34px; padding:30px 0 30px 0; }
+.course-margin-ccp{ margin-top:40px; }
+.course-main-block-ccp{ padding:55px 0 40px 0; }
+.course-middle-ccp{ display:block; }
+.course-left-ccp{ width:100%; }
+.course-right-ccp{ width:100%; padding:20px 0 0 0; font-size: 14px; line-height: 26px; }
+.acquisition-block-ccp{ padding:40px 0; }
+.acquisition-list-ccp{ display:block; }
+.acquisition-left-ccp{ margin:auto; }
+.line-1-ccp:after{ display:none; }
+.acquisition-right-ccp{ width:100%; margin:20px 0 0 0; }
+.acquisition-right-in-ccp{ padding:20px; }
+.line-2-ccp:after{ display:none; }
+.school-ccp{ padding:10px 0 0 0; }
+.border-title-ccp h3{ font-size: 16px; line-height: 26px; }
+.school-list-left-ccp{ font-size:16px; width:120px; }
+.school-list-right-ccp{ width:calc(100% - 120px); font-size: 16px; line-height: 24px; padding:5px 15px; }
+.course-left-title-ccp h3{ font-size:17px; }
+.original-block-ccp{ padding:40px 0 0 0; }
+.original-img-ccp{ padding:25px 0 0 0; }
+.original-text-ccp{ font-size:12px; }
+.original-box-ccp{ padding-bottom:40px; }
+.original-images-ccp{ padding-bottom:40px; }
+.original-img-in-ccp{ margin:0 5px; }
+
+.voice-block-ccp{ padding:40px 0 20px 0; }
+.voice-middle-ccp{ display:block; }
+.voice-box-ccp{ width:100%; margin:0 0 20px 0; display:block; padding:20px; }
+.voice-box-left-ccp{ margin:auto; }
+.voice-box-right-ccp{ width:100%; padding:20px 0 0 0; }
+
+.admission-block-ccp{ padding:40px 0;  }
+.period-back-ccp{ width:100%; max-width:800px; font-size:14px; }
+.period-flow-ccp{ flex-wrap: wrap; justify-content: center; }
+.flow-number-hp{ width:130px; height:130px; margin-bottom:20px; }
+.period-number-ccp:last-child { margin-right: 38px; }
+.contact-ccp{ display:block; }
+.contact-left-ccp a{ min-width:auto; max-width:250px; }
+.contact-left-ccp{ text-align:center; }
+.overview-text-fp{ padding-top:20px; }
+/*--------------- CORRESPONDS_END --------------*/
+
+
+/*--------------- QUALIFICATION_START --------------*/
+.youth-left-title-ccp{ text-align:center; margin:30px 0 0 0; }
+.course-left-title-ccp h3{ padding:0 30px; }
+.curriculum-block-qap{ padding:40px 0; }
+.curriculum-middle-qap h3{ font-size: 15px; line-height: 26px; }
+.curriculum-btn-qap a{ min-width:100%; font-size:16px; }
+.curriculum-btn-qap a img{ width:25px; }
+.curriculum-list-middle-qap p { font-size: 14px; line-height: 24px; }
+.curriculum-list-info-in-qap{ width:100%; font-size: 13px; line-height: 22px; padding:8px 10px; }
+.blue-back-title-in-ap p { font-size: 13px; line-height: 20px; letter-spacing:0; }
+.support-middle-qap{ padding:40px 0; display:block; }
+.support-left-qap{ width:100%; }
+.support-right-qap{ width:100%; padding:30px 0 0 0; font-size: 13px; line-height: 24px; }
+.flow-middle-qap{ padding:40px 0 10px 0; display:block; }
+.flow-box-qap{ width:100%; margin:0 0 30px  0; }
+.flow-box-info-left-qap{ font-size: 16px; line-height: 24px; }
+.flow-box-info-right-qap{ font-size: 16px; line-height: 24px; }
+.flow-option-qap div{ font-size:13px; line-height:20px; }
+.graduates-block-qap{ padding:40px 0; }
+.graduates-middle-qap{ padding:20px; display:block; }
+.graduates-right-qap{ width:100%; padding:20px 0 0 0; display:block; }
+.graduates-right-qap div{ width:100%; padding:0; }
+.graduates-right-qap div p{ padding-bottom:15px; }
+.graduates-right-qap div p:last-child{ padding-bottom:15px; }
+.company-block-qap{ padding:40px 0 0 0; }
+.company-part-qap{ padding:35px 20px 0 20px; margin-bottom:40px; }
+.company-list-qap{ width:100%; }
+.company-list-qap:nth-child(2n){ width:100%; }
+.company-list-qap{ font-size: 14px; line-height: 20px; }
+.acquisition-box-qap{ width:100%; margin:0 0 20px 0; padding:15px; min-height:inherit; }
+.acquisition-box-right-qap{ padding:0 0 0 15px; }
+.acquisition-box-right-qap h2{ font-size: 20px; line-height: 30px; }
+.acquisition-box-bottom-qap { padding: 15px 0 0 0; font-size: 13px; line-height: 26px; }
+.acquisition-middle-qap{ padding:40px 0 20px 0; }
+.banner-box-right-ap{ min-height:inherit; }
+.position-ab-bottom{ position:relative; }
+/*--------------- QUALIFICATION_END --------------*/
+
+/*--------------- CONTACT_START --------------*/
+.contact-block-cop{ padding:40px 0 0 0; }
+.contact-info-cop{ font-size: 13px; line-height: 24px; padding-bottom:6px; }
+.contact-term-cop{ font-size: 13px; line-height: 24px;}
+.contact-form-cop{ padding-top:40px;}
+.form-field-main-cop{ display:block; }
+.form-field-main-cop .form-field-cop{ width:100%; }
+.form-field-cop{ padding:0 0 20px 0; }
+.form-field-select-cop{ flex-wrap:wrap; }
+.select-cop{ width:calc(50% - 10px); margin-right:10px; margin-bottom:10px; }
+.form-field-flex-cop .form-radio-cop{ width:100%; }
+.form-field-lable-cop{ font-size:13px; }
+.contact-btn-cop a{ min-width:250px; font-size: 16px; padding:15px 15px; }
+/*--------------- CONTACT_END --------------*/
+}
+
+@media(min-width:576px) and (max-width:767px){
+.container{ max-width:100%;}
+.common-title-hp h2 { font-size: 22px; line-height: 30px; }
+.common-title-hp p { font-size: 14px; line-height: 20px; padding-top: 10px; }
+
+/*--------------- HEADER_START --------------*/
+#header{ padding:0px; }
+.header-top-in-hp{ padding:0 15px; height:70px; justify-content: space-between; }
+.header-right-hp{ display:none; }
+.mobile-menu-icon-hp{ display:block; margin-top:0px; margin-right:0; }
+.menu-toggle-btn{  margin:16px auto 16px auto;  }
+.navigation { padding: 15px; position: fixed; left: 0; width: 100%; background-color: #20478E; display: none; top: 70px; clear: both; height:calc(100% - 70px); overflow:scroll; }
+.navbar-nav .nav-link{ padding:15px 27px !important; text-align:center;  }
+.navbar-nav .dropdown-item{ text-align:center; }
+.navbar{ border:0; }
+.navbar-light .navbar-nav .nav-link br{ display:none; }
+.navbar-collapse{ display:block !important; }
+.navbar-nav .nav-item{ border:0; width:100%; border:0; height:auto; }
+.navbar-nav .dropdown-item{ font-size:14px; }
+.navbar-nav .nav-link:hover { color: #fff !important; }
+.navbar-nav .nav-link:after{ display:none; }
+.header-bottom-hp{ padding:0; }
+/*--------------- HEADER_END --------------*/
+
+/*--------------- CONTAIN_START --------------*/
+#contain{ margin:0px; padding:70px 0 0 0;}
+.banner-middle-hp{ width:100%; }
+.banner-box-hp{ height:400px; }
+.banner-box-in-hp{ padding:15px; }
+.banner-box-in-hp h1{ width:100%; font-size: 24px; line-height: 45px; }
+.glorious-block-hp{ margin-top:10px; }
+.glorious-overlay-hp{ padding:40px 0; }
+.step-middle-hp{ display:block; }
+.step-box-hp{ width:100%; margin:0; padding:20px 0; }
+.step-title-hp{ margin:0px auto 0 auto;  }
+.glorious-block-left-hp .glorious-middle-hp{ padding:0; }
+.video-block-hp{ padding:40px 0; }
+.play-btn{ width:60px; }
+.play-btn img{ width:100%; }
+.new-left-hp .play-btn img{ width:100%; }
+.video-text-hp{ font-size: 15px; line-height: 20px; }
+.new-block-hp{ padding:40px 0; }
+.common-title-2-hp h2{ font-size: 20px; line-height: 26px; }
+.common-title-2-hp p{ font-size: 14px; line-height: 20px; padding:5px 0 0 0; }
+.new-middle-hp{ padding:30px 0 0 0; display:block; }
+.new-left-hp{ width:100%; margin-bottom:20px; }
+.new-right-hp{ width:100%; }
+.flow-block-hp{ padding:40px 0; }
+.flow-middle-hp{ padding:25px 0 0 0; display:block; }
+.flow-steps-1-hp{ margin:0 0 0 -10px; }
+.flow-steps-hp{ width:100%; max-width:330px; margin:auto; }
+.flow-steps-in-hp{ width:100%; margin:auto; background-size:100%; padding:35px 55px 0 0; height:278px; }
+.flow-number-hp{ width:80px; height:80px; font-size: 16px; line-height: 25px; }
+.flow-name-hp{ font-size: 20px; line-height: 25px; }
+.flow-steps-2-hp .flow-steps-in-hp{ width:100%; background-size: 100%; padding: 35px 55px 0 0; height: 258px; }
+.flow-steps-3-hp .flow-steps-in-hp{ width:100%; background-size: 100%; padding: 35px 55px 0 0; height: 258px; }
+.flow-text-hp{ padding:10px 0 25px 0; font-size:14px; }
+.flow-part-right-hp h3{ font-size:20px; }
+.map-block-hp iframe{ height:250px; }
+/*--------------- CONTAIN_END --------------*/
+
+/*--------------- FOOTER_START --------------*/
+.footer-links-hp ul li{ font-size: 12px; line-height: 16px; padding: 0px 13px; }
+.footer-links-hp { padding: 16px 0 30px 0; }
+/*--------------- FOOTER_END --------------*/
+
+/*--------------- COURCE_START --------------*/
+.banner-box-ap{ display:block; height:auto; padding:40px 0; }  
+.banner-box-left-ap{ width:100%; }
+.banner-box-left-ap h1{ font-size: 26px; line-height: 36px;  }
+.banner-box-right-ap{ width:100%; padding:15px; margin-top:30px; }
+.banner-box-right-ap p{ font-size: 13px; line-height: 24px; }
+.learning-block-ap{ padding:40px 0; }
+.learning-middle-ap{ padding:40px 0 0 0; }
+.blue-title-ap h2{ font-size:20px; line-height:30px; }
+.blue-title-small-in-ap h2{ font-size:16px; }
+.blue-back-title-in-ap h2{font-size: 18px; line-height: 30px; }
+.blue-back-title-ap{ padding:30px 0; }
+.returning-info-ap{ padding:40px 0; }
+.returning-info-ap p { font-size: 13px; line-height: 26px; padding-bottom: 20px; }  
+.timer-main-block-ap{ padding:30px 0; }
+.timer-middle-ap{ display:block; }
+.timer-left-ap{ margin:auto; width:80px; }
+.timer-left-ap:after{ display:none; }
+.timer-right-ap{ width:100%; padding:0; display:block; text-align: center; }
+.timer-right-left-ap{ width:100%; padding:20px 0 20px 0; }
+.timer-right-right-ap{ width:100%; }
+.timer-right-left-ap h2{ font-size:18px; line-height:25px; }
+.timer-right-left-ap p { font-size: 13px; line-height: 28px; }
+.enrollment-main-block-ap{ padding:40px 0 0 0; }
+.enrollment-box-ap{ padding:20px; display:block; margin-bottom:60px; }
+.enrollment-box-ap:after{ bottom:-45px; }
+.enrollment-box-ap:last-child{ margin-bottom:40px; }
+.enrollment-box-ap .flow-number-hp{ margin:auto; }
+.enrollment-text-ap{ width:100%; padding:20px 0 0 0; font-size: 20px; line-height: 30px; }
+.enrollment-desc-ap{ width:100%; padding:20px 0 0 0; text-align:center; font-size: 12px;  line-height: 26px; }
+.domicile-main-block-ap{ padding:40px 0 0 0; }
+.domicile-box-ap .blue-title-small-in-ap h2{ min-width:100%; }
+.domicile-desc-ap{ padding:40px 20px 20px 20px; font-size: 13px; line-height: 28px; }
+.domicile-box-ap{ margin-bottom:25px; }
+.timer-table-ap{ margin:20px auto 0; }
+/*--------------- COURCE_END --------------*/
+
+/*--------------- ACADEMY_START --------------*/
+.learning-block-fp{ padding:30px 0 0 0; }
+.greeting-middle-fp{ display:block; padding:40px 0 0 0; }
+.greeting-left-fp{ width:100%; padding:0px 0 30px 0;  }
+.greeting-left-fp p{ font-size: 13px; line-height: 26px; }
+.greeting-right-fp{ margin:auto; }
+.mission-middle-ap{ padding:40px 0; }
+.mission-middle-ap h3{ font-size: 14px; line-height: 26px; padding-bottom:20px; }
+.mission-middle-ap p { font-size: 13px; line-height: 26px; }
+.staff-middle-fp{ padding:40px 0 0 0; }
+.staff-box-fp { width: calc(50% - 10px); margin-right: 20px; }
+.staff-box-fp:nth-child(3n){ margin-right:20px; }
+.staff-box-fp:nth-child(2n){ margin-right:0px; }
+.staff-info-fp h3{ font-size: 18px; line-height: 26px; }
+.staff-info-fp p{ font-size: 11px; line-height: 20px; }
+.life-main-block-fp{ padding:40px 0; }
+.life-title-fp{ font-size: 20px; line-height: 34px; }
+.life-middle-fp{ padding:0; display:block; }
+.life-left-fp{ width:100%; margin-bottom:20px; }
+.life-left-fp .banner-box-right-ap p{ font-size: 13px; line-height: 24px; }
+.life-right-fp{ margin-bottom:0; }
+.overview-middle-fp{ padding:40px 0; flex-direction: column-reverse; }
+.overview-left-fp{ width:100%; }
+.overview-right-fp{ width:100%; padding:0; }
+.overview-rest-fp { padding: 25px 0 40px 0; }
+.overview-left-fp iframe{ height:300px; max-width:100%; }
+/*--------------- ACADEMY_END --------------*/
+
+/*--------------- ABOUT_START --------------*/
+.tuition-block-atp{ padding:30px 0; }
+.tuition-title-atp { font-size: 14px; line-height: 24px; }
+.tuition-table-atp{ padding:40px 0 0 0; }
+.tuition-info-atp{ margin-bottom:30px; overflow: scroll; }
+.tuition-info-in-atp{ width:970px; }
+.tuition-table-title-atp{ font-size: 16px; line-height: 26px; }
+.tuition-table-left-atp{ font-size:15px; }
+.tuition-info-472-atp .tuition-info-in-atp{ width:472px; }
+.tuition-table-right-atp{ font-size:15px; }
+.yellow-title-atp{ font-size:15px; }
+.plus-icon-atp{ margin:0px 0 25px 0; }
+/*--------------- ABOUT_END --------------*/
+
+/*--------------- ABOUT_LIFE_START --------------*/
+.life-details-left-adfp{ width:50%; padding-right:20px; font-size: 14px; line-height: 26px; }
+.life-details-right-adfp{ width:50%; margin:20px 0 0 0; }
+.life-details-right-in-adfp{ font-size:14px; }
+.shared-adfp{ font-size: 16px; padding-bottom:5px; line-height: 24px; }
+.life-images-adfp{ padding-bottom:25px; padding-top:25px; }
+.life-details-left-p0-adfp { padding-right: 0; width: 100%; }
+
+.flow-list-left-adfp{ width:62%; padding:0 20px 0px 0; }
+.flow-name-adfp{ width:calc(100% - 80px); font-size:18px; }
+.flow-desc-adfp { font-size: 14px;  line-height: 26px; }
+.flow-list-right-adfp{ width:38%; }
+.flow-list-adfp{align-items: center; }
+.flow-arrow-adfp{ padding-top:30px; }
+.flow-main-block-adfp{ padding:30px 0 0 0; }
+.flow-list-left-100-adfp { width: 100%; padding-right: 0; }
+/*--------------- ABOUT_LIFE_END --------------*/
+
+/*--------------- CORRESPONDS_START --------------*/
+.satellite-block-ccp{ padding:40px 0; } 
+.satellite-title-ccp h2{ font-size: 20px; line-height: 28px; padding:9px 24px; }
+.satellite-title-ccp h3{ font-size: 22px; line-height: 34px; padding:30px 0 30px 0; }
+.course-margin-ccp{ margin-top:40px; }
+.course-main-block-ccp{ padding:55px 0 40px 0; }
+.course-middle-ccp{ display:block; }
+.course-left-ccp{ width:100%; }
+.course-right-ccp{ width:100%; padding:20px 0 0 0; font-size: 14px; line-height: 26px; }
+.acquisition-block-ccp{ padding:40px 0; }
+.acquisition-list-ccp{ display:block; }
+.acquisition-left-ccp{ margin:auto; }
+.line-1-ccp:after{ display:none; }
+.acquisition-right-ccp{ width:100%; margin:20px 0 0 0; }
+.acquisition-right-in-ccp{ padding:20px; }
+.line-2-ccp:after{ display:none; }
+.school-ccp{ padding:10px 0 0 0; }
+.border-title-ccp h3{ font-size: 16px; line-height: 26px; }
+.school-list-left-ccp{ font-size:16px; width:120px; }
+.school-list-right-ccp{ width:calc(100% - 120px); font-size: 16px; line-height: 24px; padding:5px 15px; }
+.course-left-title-ccp h3{ font-size:17px; }
+.original-block-ccp{ padding:40px 0 0 0; }
+.original-img-ccp{ padding:25px 0 0 0; }
+.original-text-ccp{ font-size:12px; }
+.original-box-ccp{ padding-bottom:40px; }
+.original-images-ccp{ padding-bottom:40px; }
+.original-img-in-ccp{ margin:0 5px; }
+
+.voice-block-ccp{ padding:40px 0 20px 0; }
+.voice-middle-ccp{ display:block; }
+.voice-box-ccp{ width:100%; margin:0 0 20px 0; display:block; padding:20px; }
+.voice-box-left-ccp{ margin:auto; }
+.voice-box-right-ccp{ width:100%; padding:20px 0 0 0; }
+
+.admission-block-ccp{ padding:40px 0;  }
+.period-back-ccp{ width:100%; max-width:800px; font-size:14px; }
+.period-flow-ccp{ flex-wrap: wrap; justify-content: center; }
+.flow-number-hp{ width:130px; height:130px; margin-bottom:20px; }
+.period-number-ccp:last-child { margin-right: 38px; }
+.contact-ccp{ display:block; }
+.contact-left-ccp{ text-align:center; }
+.overview-text-fp{ padding-top:20px; }
+/*--------------- CORRESPONDS_END --------------*/
+
+/*--------------- QUALIFICATION_START --------------*/
+.youth-left-title-ccp{ text-align:center; margin:30px 0 0 0; }
+.course-left-title-ccp h3{ padding:0 30px; }
+.curriculum-block-qap{ padding:40px 0; }
+.curriculum-middle-qap h3{ font-size: 15px; line-height: 26px; }
+.curriculum-btn-qap a{ font-size:16px; }
+.curriculum-btn-qap a img{ width:25px; }
+.curriculum-list-middle-qap p { font-size: 14px; line-height: 24px; }
+.curriculum-list-info-in-qap{ width:50%; font-size: 12px; line-height: 22px; padding:8px 10px; }
+.blue-back-title-in-ap p { font-size: 13px; line-height: 20px; letter-spacing:0; }
+.support-middle-qap{ padding:40px 0; display:block; }
+.support-left-qap{ width:100%; }
+.support-right-qap{ width:100%; padding:30px 0 0 0; font-size: 13px; line-height: 24px; }
+.flow-middle-qap{ padding:40px 0 10px 0; display:block; }
+.flow-box-qap{ width:100%; margin:0 0 30px  0; }
+.flow-box-info-left-qap{ font-size: 16px; line-height: 24px; }
+.flow-box-info-right-qap{ font-size: 16px; line-height: 24px; }
+.flow-option-qap div{ font-size:13px; line-height:20px; }
+.graduates-block-qap{ padding:40px 0; }
+.graduates-middle-qap{ padding:20px; display:block; }
+.graduates-right-qap{ width:100%; padding:20px 0 0 0; display:block; }
+.graduates-right-qap div{ width:100%; padding:0; }
+.graduates-right-qap div p{ padding-bottom:15px; }
+.graduates-right-qap div p:last-child{ padding-bottom:15px; }
+.company-block-qap{ padding:40px 0 0 0; }
+.company-part-qap{ padding:35px 20px 0 20px; margin-bottom:40px; }
+.company-list-qap{ font-size: 14px; line-height: 20px; }
+.acquisition-box-qap{ width:100%; margin:0 0 20px 0; padding:15px; min-height:inherit; }
+.acquisition-box-right-qap{ padding:0 0 0 15px; }
+.acquisition-box-right-qap h2{ font-size: 20px; line-height: 30px; }
+.acquisition-box-bottom-qap { padding: 15px 0 0 0; font-size: 13px; line-height: 26px; }
+.acquisition-middle-qap{ padding:40px 0 20px 0; }
+.banner-box-right-ap{ min-height:inherit; }
+.position-ab-bottom{ position:relative; }
+/*--------------- QUALIFICATION_END --------------*/
+
+/*--------------- CONTACT_START --------------*/
+.contact-block-cop{ padding:40px 0 0 0; }
+.contact-info-cop{ font-size: 13px; line-height: 24px; padding-bottom:6px; }
+.contact-term-cop{ font-size: 13px; line-height: 24px;}
+.contact-form-cop{ padding-top:40px;}
+.form-field-cop{ padding:0 0 20px 0; }
+.form-field-select-cop{ flex-wrap:wrap; }
+.select-cop{ width:calc(50% - 10px); margin-right:10px; margin-bottom:10px; }
+.form-field-flex-cop .form-radio-cop{ width:50%; }
+.form-field-lable-cop{ font-size:13px; }
+.contact-btn-cop a{ min-width:250px; font-size: 16px; padding:15px 15px; }
+/*--------------- CONTACT_END --------------*/
+}
+
+@media(min-width:768px) and (max-width:991px){
+.container{ max-width:768px;}
+.common-title-hp h2 { font-size: 22px; line-height: 30px; }
+.common-title-hp p { font-size: 14px; line-height: 20px; padding-top: 10px; }
+
+/*--------------- HEADER_START --------------*/
+#header{ padding:0px; }
+.header-top-in-hp{ padding:0 15px; height:70px; justify-content: space-between; }
+.header-right-hp{ display:none; }
+.mobile-menu-icon-hp{ display:block; margin-top:0px; margin-right:0; }
+.menu-toggle-btn{  margin:16px auto 16px auto;  }
+.navigation { padding: 15px; position: fixed; left: 0; width: 100%; background-color: #20478E; display: none; top: 70px; clear: both; height:calc(100% - 70px); overflow:scroll; }
+.navbar-nav .nav-link{ padding:15px 27px !important; text-align:center;  }
+.navbar-nav .dropdown-item{ text-align:center; }
+.navbar{ border:0; }
+.navbar-light .navbar-nav .nav-link br{ display:none; }
+.navbar-collapse{ display:block !important; }
+.navbar-nav .nav-item{ border:0; width:100%; border:0; height:auto; }
+.navbar-nav .dropdown-item{ font-size:14px; }
+.navbar-nav .nav-link:hover { color: #fff !important; }
+.navbar-nav .nav-link:after{ display:none; }
+.header-bottom-hp{ padding:0; }
+/*--------------- HEADER_END --------------*/
+
+/*--------------- CONTAIN_START --------------*/
+#contain{ margin:0px; padding:70px 0 0 0;}
+.banner-middle-hp{ width:60%; }
+.banner-box-hp{ height:400px; }
+.banner-box-in-hp{ padding:15px; }
+.banner-box-in-hp h1{ font-size: 24px; line-height: 45px; width: 430px; }
+.glorious-block-hp{ margin-top:10px; }
+.glorious-overlay-hp{ padding:40px 0; }
+.step-title-hp{ margin:-30px auto 0 auto; }
+.step-name-hp h3{ font-size:13px; }
+.step-box-hp h2{ font-size:16px; }
+.video-block-hp{ padding:40px 0; }
+.play-btn{ width:130px; }
+.play-btn img{ width:100%; }
+.new-left-hp .play-btn img{ width:100%; }
+.new-block-hp{ padding:40px 0; }
+.common-title-2-hp h2{ font-size: 20px; line-height: 26px; }
+.common-title-2-hp p{ font-size: 14px; line-height: 20px; padding:5px 0 0 0; }
+.new-middle-hp{ padding:30px 0 0 0; }
+.new-left-hp{ width:47%; }
+.new-right-hp{ width:47%; }
+.new-left-hp .play-btn{ width:71px; }
+.flow-block-hp{ padding:40px 0; }
+.flow-middle-hp{ padding:25px 0 0 0; }
+.flow-steps-1-hp{ margin:0 0 0 -10px; }
+.flow-text-hp{ padding:10px 0 25px 0; font-size:14px; }
+.flow-part-right-hp h3{ font-size:20px; }
+.map-block-hp iframe{ height:250px; }
+.flow-steps-in-hp{ width: 340px; height: 288px; padding: 35px 65px 0 0; background-size: 100%; }
+.flow-steps-2-hp .flow-steps-in-hp{ width: 365px; height: 288px; padding: 35px 15px 0 0; background-size: 100%; }
+.flow-steps-3-hp .flow-steps-in-hp{ width: 358px; height: 288px; padding: 35px 0 0 90px; background-size: 100%; } 
+.flow-number-hp{ width: 90px; height: 90px; font-size:18px; }
+.flow-steps-3-hp{ margin:0 0 0 -170px; }
+.flow-name-hp{ font-size: 17px; line-height: 25px; }
+.flow-btn-hp .common-btn-hp{ min-width:170px; }
+/*--------------- CONTAIN_END --------------*/
+
+/*--------------- FOOTER_START --------------*/
+.footer-links-hp ul li{ font-size: 12px; line-height: 16px; padding: 0px 13px; }
+.footer-links-hp { padding: 16px 0 30px 0; }
+/*--------------- FOOTER_END --------------*/
+
+/*--------------- COURCE_START --------------*/
+.banner-box-ap{ height:auto; padding:40px 0; }  
+.banner-box-left-ap{ width:45%; }
+.banner-box-left-ap h1{ font-size: 26px; line-height: 36px; padding-right:15px; }
+.banner-box-right-ap{ width:55%; padding:15px; }
+.banner-box-right-ap p{ font-size: 13px; line-height: 24px; }
+.learning-block-ap{ padding:40px 0; }
+.learning-middle-ap{ padding:40px 0 0 0; }
+.blue-title-ap h2{ font-size:20px; line-height:30px; }
+.blue-title-small-in-ap h2{ font-size:16px; }
+.blue-back-title-in-ap h2{font-size: 18px; line-height: 30px; }
+.blue-back-title-ap{ padding:30px 0; }
+.returning-info-ap{ padding:40px 0; }
+.returning-info-ap p { font-size: 13px; line-height: 26px; padding-bottom: 20px; }  
+.timer-main-block-ap{ padding:25px 0; }
+.timer-left-ap{ width:80px; }
+.timer-right-right-ap { width: 220px; }
+.timer-right-left-ap{ width: calc(100% - 220px); padding-right: 30px; }
+.timer-left-ap:after{ height:380%; }
+.timer-left-2-ap:after{ height:100%; }
+.timer-right-left-ap h2 span{ font-size:10px; }
+.timer-right-left-ap h2{ font-size:18px; line-height:25px; }
+.timer-right-left-ap p { font-size: 13px; line-height: 28px; }
+.enrollment-main-block-ap{ padding:40px 0 0 0; }
+.enrollment-box-ap{ padding:20px; margin-bottom:60px; }
+.enrollment-box-ap:after{ bottom:-45px; }
+.enrollment-box-ap:last-child{ margin-bottom:40px;}
+.enrollment-desc-ap{ padding:0; }
+.enrollment-text-ap{ font-size:20px; }
+.enrollment-desc-ap{ font-size: 13px; line-height: 28px; }
+.domicile-main-block-ap{ padding:40px 0 0 0; }
+.domicile-box-ap .blue-title-small-in-ap h2{ min-width:100%; }
+.domicile-desc-ap{ padding:40px 20px 20px 20px; font-size: 13px; line-height: 28px; }
+.domicile-box-ap{ margin-bottom:25px; }
+.timer-table-ap{ margin:20px auto 0; }
+/*--------------- COURCE_END --------------*/
+
+/*--------------- ACADEMY_START --------------*/
+.learning-block-fp{ padding:30px 0 0 0; }
+.greeting-middle-fp{ padding:40px 0 0 0; }
+.greeting-left-fp{ padding-right:30px; }
+.greeting-left-fp p{ font-size: 13px; line-height: 26px; }
+
+.mission-middle-ap{ padding:40px 0; }
+.mission-middle-ap h3{ font-size: 14px; line-height: 26px; padding-bottom:20px; }
+.mission-middle-ap p { font-size: 13px; line-height: 26px; }
+.staff-middle-fp{ padding:40px 0 0 0; }
+.staff-box-fp { width: calc(33.33% - 14px); margin-right: 20px; }
+.staff-box-fp:nth-child(3n){ margin-right:0px; }
+.staff-info-fp h3{ font-size: 18px; line-height: 26px; }
+.staff-info-fp p{ font-size: 11px; line-height: 20px; }
+.life-main-block-fp{ padding:40px 0; }
+.life-title-fp{ font-size: 20px; line-height: 34px; }
+
+.life-left-fp{ width:50%; margin-bottom:20px; }
+.life-left-fp .banner-box-right-ap p{ font-size: 15px; line-height: 30px; }
+.life-right-fp{ margin-bottom:0; }
+.overview-middle-fp{ padding:40px 0;  }
+.overview-left-fp{ width:50%; padding-right:20px; }
+.overview-right-fp{ width:50%; padding:0 0 0 30px; }
+.overview-rest-fp { padding: 25px 0 0px 0; }
+.overview-left-fp iframe{ height:300px; max-width:100%; }
+.overview-btn-fp .orange-btn-hp{ min-width:310px; font-size:16px; }
+/*--------------- ACADEMY_END --------------*/
+
+/*--------------- ABOUT_START --------------*/
+.tuition-block-atp{ padding:30px 0; }
+.tuition-title-atp { font-size: 14px; line-height: 24px; }
+.tuition-table-atp{ padding:40px 0 0 0; }
+.tuition-info-atp{ margin-bottom:30px; overflow: scroll; }
+.tuition-info-in-atp{ width:970px; }
+.tuition-table-title-atp{ font-size: 16px; line-height: 26px; }
+.tuition-table-left-atp{ font-size:15px; }
+.tuition-info-472-atp .tuition-info-in-atp{ width:472px; }
+.tuition-table-right-atp{ font-size:15px; }
+.yellow-title-atp{ font-size:15px; }
+.plus-icon-atp{ margin:0px 0 25px 0; }
+/*--------------- ABOUT_END --------------*/
+
+/*--------------- ABOUT_LIFE_START --------------*/
+.life-details-right-adfp{ margin-top:30px; }
+.life-details-left-adfp{ padding:20px 20px 0 0; }
+.life-images-adfp{ padding-bottom:25px; }
+/*--------------- ABOUT_LIFE_END --------------*/
+
+/*--------------- CORRESPONDS_START --------------*/
+.satellite-block-ccp{ padding:40px 0; } 
+.satellite-title-ccp h2{ font-size: 20px; line-height: 28px; padding:9px 24px; }
+.satellite-title-ccp h3{ font-size: 22px; line-height: 34px; padding:30px 0 30px 0; }
+.course-margin-ccp{ margin-top:40px; }
+.course-main-block-ccp{ padding:55px 0 40px 0; }
+.course-left-ccp{ width:40% }
+
+.course-right-ccp{ font-size: 14px; line-height: 26px; width:60%; padding-left:40px; }
+.acquisition-block-ccp{ padding:40px 0; }
+
+.line-1-ccp:after{ left: 100px; bottom: -210px; width: 465px; background-size: 100%; }
+.acquisition-right-in-ccp{ padding:20px; }
+.line-2-ccp:after{ background-size: 100%; right: 128px; width:483px; bottom: -240px;  }
+.acquisition-right-ccp { width: calc(100% - 267px); margin-left: 40px; }
+.acquisition-list-reverse-ccp .acquisition-right-ccp{ margin-left: 0px; margin-right:40px; }
+.school-ccp{ padding:10px 0 0 0; }
+.border-title-ccp h3{ font-size: 16px; line-height: 26px; }
+.school-list-left-ccp{ font-size:16px;  }
+.school-list-right-ccp{ font-size: 16px; line-height: 24px; padding:5px 15px; }
+.course-left-title-ccp h3{ font-size:17px; line-height: 30px; }
+.original-block-ccp{ padding:40px 0 0 0; }
+.original-img-ccp{ padding:25px 0 0 0; }
+.original-text-ccp{ font-size:12px; }
+.original-box-ccp{ padding-bottom:40px; }
+.original-images-ccp{ padding-bottom:40px; }
+.original-img-in-ccp{ margin:0 5px; }
+
+.voice-block-ccp{ padding:40px 0 20px 0; }
+.voice-box-ccp{  display:block; padding:20px; }
+.voice-box-left-ccp{ margin:auto; }
+.voice-box-right-ccp{ width:100%; padding:20px 0 0 0; }
+
+.admission-block-ccp{ padding:40px 0;  }
+.period-back-ccp{ width:100%; max-width:800px; font-size:14px; }
+.period-flow-ccp{ flex-wrap: wrap; justify-content: center; }
+.flow-number-hp{ width:130px; height:130px; margin-bottom:20px; }
+.period-number-ccp:last-child { margin-right: 38px; }
+/*--------------- CORRESPONDS_END --------------*/
+
+/*--------------- QUALIFICATION_START --------------*/
+.youth-left-title-ccp{ text-align:center; margin:30px 0 0 0; }
+.course-left-title-ccp h3{ padding:0 30px; }
+.curriculum-block-qap{ padding:40px 0; }
+.curriculum-middle-qap h3{ font-size: 15px; line-height: 26px; }
+.curriculum-btn-qap a{ font-size:16px; }
+.curriculum-btn-qap a img{ width:25px; }
+.curriculum-list-middle-qap p { font-size: 14px; line-height: 24px; }
+.curriculum-list-info-in-qap{ width:50%; font-size: 12px; line-height: 22px; padding:8px 10px; }
+.blue-back-title-in-ap p { font-size: 13px; line-height: 20px; letter-spacing:0; }
+.support-middle-qap{ padding:40px 0; }
+.support-left-qap{ width:40%; }
+.support-right-qap{ width:60%; }
+.support-right-qap{ font-size: 13px; line-height: 24px; }
+.flow-middle-qap{ padding:40px 0 10px 0; }
+.flow-box-qap{ width:calc(50% - 20px); margin:0 10px; }
+.flow-box-info-left-qap{ font-size: 16px; line-height: 24px; }
+.flow-box-info-right-qap{ font-size: 16px; line-height: 24px; }
+.flow-option-qap div{ font-size:13px; line-height:20px; }
+.graduates-block-qap{ padding:40px 0; }
+.graduates-middle-qap{ padding:20px; }
+.graduates-right-qap{ display:block; }
+.graduates-right-qap div{ width:100%; padding:0; }
+.graduates-right-qap div p{ padding-bottom:15px; }
+.graduates-right-qap div p:last-child{ padding-bottom:15px; }
+.company-block-qap{ padding:40px 0 0 0; }
+.company-part-qap{ padding:35px 20px 0 20px; margin-bottom:40px; }
+.company-list-qap{ font-size: 18px; line-height: 22px; }
+.acquisition-box-right-qap{ padding:0 0 0 15px; }
+.acquisition-box-right-qap h2{ font-size: 20px; line-height: 30px; }
+.acquisition-box-bottom-qap { padding: 15px 0 0 0; font-size: 13px; line-height: 26px; }
+.acquisition-middle-qap{ padding:40px 0 20px 0; }
+.banner-box-right-ap{ min-height:inherit; }
+.graduates-middle-qap .voice-box-left-ccp{ margin:0; }
+/*--------------- QUALIFICATION_END --------------*/
+
+/*--------------- CONTACT_START --------------*/
+.contact-block-cop{ padding:40px 0 0 0; }
+.contact-info-cop{ font-size: 13px; line-height: 24px; padding-bottom:6px; }
+.contact-term-cop{ font-size: 13px; line-height: 24px;}
+.contact-form-cop{ padding-top:40px;}
+.form-field-cop{ padding:0 0 20px 0; }
+/*--------------- CONTACT_END --------------*/
+}
+
+@media(min-width:992px) and (max-width:1030px){
+.container{ width:992px;}
+
+/*--------------- HEADER_START --------------*/
+.navbar-nav .nav-item{ font-size:12px; }
+/*--------------- HEADER_END --------------*/
+
+/*--------------- CONTAIN_START --------------*/
+.banner-box-in-hp h1{ font-size: 35px; line-height: 58px; width:520px; }
+.flow-steps-2-hp{ margin:0 0 0 -140px; }
+.flow-steps-3-hp{ margin:0 0 0 -150px; }
+/*--------------- CONTAIN_END --------------*/
+
+/*--------------- ABOUT_START --------------*/
+.tuition-table-title-atp{ font-size: 16px; line-height: 26px; }
+.tuition-table-left-atp{ font-size:15px; }
+.tuition-table-right-atp{ font-size:15px; }
+.yellow-title-atp{ font-size:15px; }
+.width-234-atp{ width:220px; }
+/*--------------- ABOUT_END --------------*/
+}
+
+
+@media(min-width:992px) and (max-width:9999px){
+.navigation{ display:block !important; }
+.navbar-nav .dropdown:hover .dropdown-menu{ display:block; }
+}

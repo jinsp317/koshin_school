@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'source_han_sans_jpbold';
+    src: url('../fonts/sourcehansansjp-bold.eot');
+    src: url('../fonts/sourcehansansjp-bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sourcehansansjp-bold.woff2') format('woff2'),
+         url('../fonts/sourcehansansjp-bold.woff') format('woff'),
+         url('../fonts/sourcehansansjp-bold.ttf') format('truetype'),
+         url('../fonts/sourcehansansjp-bold.svg#source_han_sans_jpbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'source_han_sans_jpregular';
+    src: url('../fonts/sourcehansansjp-regular.eot');
+    src: url('../fonts/sourcehansansjp-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sourcehansansjp-regular.woff2') format('woff2'),
+         url('../fonts/sourcehansansjp-regular.woff') format('woff'),
+         url('../fonts/sourcehansansjp-regular.ttf') format('truetype'),
+         url('../fonts/sourcehansansjp-regular.svg#source_han_sans_jpregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'source_han_sans_jpmedium';
+    src: url('../fonts/sourcehansansjp-medium.eot');
+    src: url('../fonts/sourcehansansjp-medium.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sourcehansansjp-medium.woff2') format('woff2'),
+         url('../fonts/sourcehansansjp-medium.woff') format('woff'),
+         url('../fonts/sourcehansansjp-medium.ttf') format('truetype'),
+         url('../fonts/sourcehansansjp-medium.svg#source_han_sans_jpmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
