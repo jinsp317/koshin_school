@@ -1,0 +1,9 @@
+{
+  "folders": [{
+    "path": "."
+  }],
+  "settings": {
+    "java.configuration.updateBuildConfiguration": "disabled",
+    "git.ignoreLimitWarning": true
+  }
+}

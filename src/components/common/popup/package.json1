@@ -1,0 +1,32 @@
+{
+  "name": "react-native-long-press-popup",
+  "version": "1.0.0",
+  "description": "A React Native Popop Menu with long press open/长按上下文气泡菜单",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "dependencies": {
+    "browserify": "latest",
+    "@types/browserify": "latest",
+    "typescript": "next",
+    "async-reactor": "^1.2.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/react-sextant/react-native-long-press-popup.git"
+  },
+  "keywords": [
+    "react",
+    "native",
+    "long press",
+    "popup"
+  ],
+  "author": "https://github.com/1uokun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/react-sextant/react-native-long-press-popup/issues"
+  },
+  "homepage": "https://github.com/react-sextant/react-native-long-press-popup#readme"
+}

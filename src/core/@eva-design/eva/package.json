@@ -1,0 +1,47 @@
+{
+  "_args": [
+    [
+      "@eva-design/eva@1.0.0",
+      "G:\\RHJ\\work\\DaleApp"
+    ]
+  ],
+  "_from": "@eva-design/eva@1.0.0",
+  "_id": "@eva-design/eva@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-rcRCLTXEMCuflsUg8jcXWXzpGW+WmMqKit8OIY38K5EgJ9UhbdKScZz1GhtWW9PRaXcivbtYpvzFbuNfYBjTDQ==",
+  "_location": "/@eva-design/eva",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@eva-design/eva@1.0.0",
+    "name": "@eva-design/eva",
+    "escapedName": "@eva-design%2feva",
+    "scope": "@eva-design",
+    "rawSpec": "1.0.0",
+    "saveSpec": null,
+    "fetchSpec": "1.0.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@eva-design/eva/-/eva-1.0.0.tgz",
+  "_spec": "1.0.0",
+  "_where": "G:\\RHJ\\work\\DaleApp",
+  "author": {
+    "name": "akveo",
+    "email": "contact@akveo.com"
+  },
+  "bugs": {
+    "url": "https://github.com/eva-design/eva/issues"
+  },
+  "description": "Eva Design System",
+  "homepage": "https://github.com/eva-design/eva#readme",
+  "license": "MIT",
+  "name": "@eva-design/eva",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eva-design/eva.git"
+  },
+  "version": "1.0.0"
+}

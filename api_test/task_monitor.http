@@ -1,0 +1,40 @@
+//@api_server=http://47.111.144.204/api
+@api_server=http://localhost/api
+###
+//로그인
+POST {{api_server}}/login 
+content-type: application/json
+
+{
+    "nick": "admin",
+    "password": "admin",
+    "hospital_id": 1
+}
+###
+//
+GET {{api_server}}/task?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3RcL2FwaVwvbG9naW4iLCJpYXQiOjE1NzE1NDg3NzAsImV4cCI6MTU3MTU1MjM3MCwibmJmIjoxNTcxNTQ4NzcwLCJqdGkiOiJheGFHT0oyNEg5VmRyNFV4Iiwic3ViIjoxLCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.QEqO5Bp-Ln3humIGKH0FNt1tfWcJWmOuZWZobkq3h9A
+&is_completed=0&day=2019-09-26&point=8 HTTP/1.1
+content-type: application/json; charset=utf-8
+Accept-Charset: utf-8
+###
+// today task
+GET {{api_server}}/task?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC80Ny4xMTEuMTQ0LjIwNFwvYXBpXC9sb2dpbiIsImlhdCI6MTU3MDUwNDM0OSwiZXhwIjoxNTcwNTA3OTQ5LCJuYmYiOjE1NzA1MDQzNDksImp0aSI6IkY5NUJCOEpWYm5NdHhqNU8iLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.da5QEgIHnNsMbp4v_f-w_34aX-cZBsn39bOStCKbuVc
+&day=2019-10-07&is_completed=1&point=8 HTTP/1.1
+
+
+content-type: application/json; charset=utf-8
+Accept-Charset: utf-8
+###
+//添加新记录
+POST {{api_server}}/task 
+content-type: application/json
+
+{
+"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC80Ny4xMTEuMTQ0LjIwNFwvYXBpXC9sb2dpbiIsImlhdCI6MTU2OTQyNzIxOCwiZXhwIjoxNTY5NDMwODE4LCJuYmYiOjE1Njk0MjcyMTgsImp0aSI6IkZodTkwS1kxMlExSTNGa3QiLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.VBehU1ImgTFGmeWKlJ9lkcuDyUx5CQ9lQMxMsS4cmTI",
+"patient_id":1,
+"value": 200,
+"time": "2019-09-12 10:10:10",
+"point": 1,
+"state": 1
+}
+

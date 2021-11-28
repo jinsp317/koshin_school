@@ -1,0 +1,47 @@
+{
+  "_args": [
+    [
+      "@eva-design/dss@1.0.0",
+      "G:\\RHJ\\work\\DaleApp"
+    ]
+  ],
+  "_from": "@eva-design/dss@1.0.0",
+  "_id": "@eva-design/dss@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-E5xdwYueY1HqVLmNBbwU9ZrsexglvSgpXSvhv+Nk9dHmHCrUl0ppdR1tGZ55Bk8NuF26Ev0WPRZFn3YSnwuXqQ==",
+  "_location": "/@eva-design/dss",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@eva-design/dss@1.0.0",
+    "name": "@eva-design/dss",
+    "escapedName": "@eva-design%2fdss",
+    "scope": "@eva-design",
+    "rawSpec": "1.0.0",
+    "saveSpec": null,
+    "fetchSpec": "1.0.0"
+  },
+  "_requiredBy": [
+    "/react-native-ui-kitten"
+  ],
+  "_resolved": "https://registry.npmjs.org/@eva-design/dss/-/dss-1.0.0.tgz",
+  "_spec": "1.0.0",
+  "_where": "G:\\RHJ\\work\\DaleApp",
+  "author": {
+    "name": "akveo",
+    "email": "contact@akveo.com"
+  },
+  "bugs": {
+    "url": "https://github.com/eva-design/eva/issues"
+  },
+  "description": "Design System Schema",
+  "homepage": "https://github.com/eva-design/eva#readme",
+  "license": "MIT",
+  "name": "@eva-design/dss",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eva-design/eva.git"
+  },
+  "version": "1.0.0"
+}

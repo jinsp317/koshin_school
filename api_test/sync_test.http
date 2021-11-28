@@ -1,0 +1,23 @@
+//for test server api 
+//*************created by @rihyokju 20190911*************/
+@api_server=http://47.111.144.204/api
+
+
+###
+//로그인
+POST {{api_server}}/login 
+content-type: application/json
+
+{
+    "nick": "doctor1",
+    "password": "123456",
+    "hospital_id": 1
+}
+
+//users
+###
+GET {{api_server}}/synchronize?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC80Ny4xMTEuMTQ0LjIwNFwvYXBpXC9sb2dpbiIsImlhdCI6MTU3MTgyMTc5MiwiZXhwIjoxNTc1NDIxNzkyLCJuYmYiOjE1NzE4MjE3OTIsImp0aSI6IktFMlRIMWk3WXpKUDFobEUiLCJzdWIiOjIsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.DuDYXO60Cbsrfk2ZusxzR3V8ZDjQ-_4pYZiGh0GE4-s&table=records&time=2019-01-01 00:00:00
+
+content-type: application/json; charset=utf-8
+Accept-Charset: utf-8
+

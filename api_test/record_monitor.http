@@ -1,0 +1,33 @@
+@api_server=http://47.111.144.204/api
+###
+//로그인
+POST {{api_server}}/login 
+content-type: application/json
+
+{
+    "nick": "admin",
+    "password": "admin",
+    "hospital_id": 1
+}
+###
+//혈당측정기록
+GET {{api_server}}/record?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC80Ny4xMTEuMTQ0LjIwNFwvYXBpXC9sb2dpbiIsImlhdCI6MTU2OTk4MjYxOSwiZXhwIjoxNTY5OTg2MjE5LCJuYmYiOjE1Njk5ODI2MTksImp0aSI6IkkzaVBQQWtabkNtWnlQOFciLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.O6nKMZPDAc4LFZAIapRme4Y0k_AtPJa4jgEx0XG7GXI
+&patient_id=1
+&is_group=0 HTTP/1.1
+content-type: application/json; charset=utf-8
+Accept-Charset: utf-8
+
+###
+//添加新记录
+POST {{api_server}}/record 
+content-type: application/json
+
+{
+"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC80Ny4xMTEuMTQ0LjIwNFwvYXBpXC9sb2dpbiIsImlhdCI6MTU2OTk4MjYxOSwiZXhwIjoxNTY5OTg2MjE5LCJuYmYiOjE1Njk5ODI2MTksImp0aSI6IkkzaVBQQWtabkNtWnlQOFciLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.O6nKMZPDAc4LFZAIapRme4Y0k_AtPJa4jgEx0XG7GXI",
+"patient_id":1,
+"value": 200,
+"time": "2019-09-12 10:10:10",
+"point": 1,
+"state": 1
+}
+

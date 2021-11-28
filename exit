@@ -1,0 +1,263 @@
+[33mcommit 41f70e91daccdc634e6db753afbd150fc4de2d65[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: spring <jinsp317@163.com>
+Date:   Tue Apr 27 09:44:17 2021 +0800
+
+    블루트스혈당측정속도제고, 권한에 따르는 동기화자료최적화
+
+[33mcommit 8ecd14086a491c4b50f5bbe16a35462b33df8a5f[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: spring <jinsp317@163.com>
+Date:   Mon Apr 12 21:20:36 2021 +0800
+
+    혼드변경시 잘리는 현상방ㅇ지
+
+[33mcommit aa372e98e2162ba93727a04abde3d4e290970b13[m
+Author: spring <jinsp317@163.com>
+Date:   Sat Apr 10 23:30:21 2021 +0800
+
+    4.10일 미완성부분 , 색상추가완성
+
+[33mcommit 9b010dcde220f6268220bb03c8617d0ce020e981[m
+Author: spring <jinsp317@163.com>
+Date:   Fri Apr 9 11:32:51 2021 +0800
+
+    1.20.8
+
+[33mcommit 39298ffe0c3bca4fb43d80deb172eae36da97cc4[m
+Author: spring <jinsp317@163.com>
+Date:   Thu Apr 8 15:49:47 2021 +0800
+
+    check & addition 15,16,18,19,21
+
+[33mcommit 66e5013fe52bd373263968ef0bce5ef244f0cab7[m
+Author: spring <jinsp317@163.com>
+Date:   Mon Apr 5 12:25:16 2021 +0800
+
+    graph error corrected
+
+[33mcommit 0c8ec9fdb62a120859867c462d59d1b33c09d2db[m
+Author: spring <jinsp317@163.com>
+Date:   Fri Apr 2 10:49:07 2021 +0800
+
+    1.20.6
+
+[33mcommit f830db2d1e90b8cdae83707e5b8ee69c23c85db7[m
+Author: spring <jinsp317@163.com>
+Date:   Thu Apr 1 17:13:07 2021 +0800
+
+    asset clean up unused link removed
+
+[33mcommit d76400ed731841898081ad28d42c87c956cbba9f[m
+Author: spring <jinsp317@163.com>
+Date:   Wed Mar 31 09:45:00 2021 +0800
+
+    env resetting
+
+[33mcommit 86ab8d453aff27aa1d4931ed6a29807c4589c63e[m
+Author: spring <jinsp317@163.com>
+Date:   Tue Mar 30 11:43:30 2021 +0800
+
+    1.20.6
+
+[33mcommit d952faffbe45dd2d159231b17c99521e9814f346[m
+Author: spring <jinsp317@163.com>
+Date:   Mon Mar 22 11:17:20 2021 +0800
+
+    unused reference remove database-link
+
+[33mcommit aa4d554d2518ef463ae41b28bdfdd2697072dad6[m
+Author: spring <jinsp317@163.com>
+Date:   Mon Mar 8 09:59:51 2021 +0800
+
+    font size changable module added
+
+[33mcommit 7db865c681fe35cb927bdd04821dd71998215ddb[m
+Author: spring <jinsp317@163.com>
+Date:   Fri Mar 5 20:35:36 2021 +0800
+
+    first test version
+
+[33mcommit 0c8442a8a1be72a3e8468fe12ee300dbbc3c847b[m
+Author: spring <jinsp317@163.com>
+Date:   Tue Mar 2 16:13:26 2021 +0800
+
+    color setting syn
+
+[33mcommit 848a6b4b64909ac6aee62e4c68546fa5ea9217c2[m
+Author: spring <jinsp317@163.com>
+Date:   Sat Feb 6 21:08:51 2021 +0800
+
+    records'delete_time , delete_user_id is corrected
+
+[33mcommit 55897dafb1837f1268946d93c95ae21126125df7[m
+Author: spring <jinsp317@163.com>
+Date:   Tue Feb 2 17:46:57 2021 +0800
+
+    full checked before 4.1
+
+[33mcommit 5c93b603b79cdb91ece9074f28154d0a2b01bc04[m[33m ([m[1;33mtag: too_big[m[33m)[m
+Author: spring <jinsp317@163.com>
+Date:   Tue Feb 2 15:38:24 2021 +0800
+
+    big file excepted
+    
+    
+    Former-commit-id: 2b39f5e93dc49b2fa2f15f11fc8a2a86587bcdb4
+
+[33mcommit 84a09b3b84594680ae251d154809cc4728df4391[m
+Author: spring <jinsp317@163.com>
+Date:   Tue Feb 2 15:27:03 2021 +0800
+
+    before 4.1
+    
+    
+    Former-commit-id: 6ada2fad4df8a14a365aa245c572614f0225d752
+
+[33mcommit 6976b333429dacc17e1397dd7b75222ea4adc355[m
+Author: spring <jinsp317@163.com>
+Date:   Wed Jan 27 16:57:24 2021 +0800
+
+    syn data problem full completed 1.10.155
+    
+    
+    Former-commit-id: ac0541219068d39e283c78c70a00dca46c6400b8
+
+[33mcommit 12889b55f27430172b8f94eaa278dd788124f809[m
+Author: spring <jinsp317@163.com>
+Date:   Sat Jan 23 20:29:10 2021 +0800
+
+    syn error corrected 1.10.154
+    
+    
+    Former-commit-id: 9b7ba80c27069c4d49213269f4c5a2d271efcbfa
+
+[33mcommit 43c56126d4b09eba4bf2b924c4aff0ffce761114[m
+Author: spring <jinsp317@163.com>
+Date:   Fri Jan 22 23:37:09 2021 +0800
+
+    1.10.154 record modified error
+    
+    
+    Former-commit-id: 0e9ba96259cf1bdbe8eaf70164ff16b31b9c0e40
+
+[33mcommit 4a9fadd128bf8a74158d623d92d4cf43981df50b[m
+Author: spring <jinsp317@163.com>
+Date:   Thu Jan 14 19:36:50 2021 +0800
+
+    1.10.153 version
+    
+    
+    Former-commit-id: b8ec047363f43604f0f401039007dab3ff79d6cf
+
+[33mcommit 52ff8ad0371adb4c78c697fdbca587d5cd1047e4[m
+Author: spring <jinsp317@163.com>
+Date:   Sat Jan 9 21:20:35 2021 +0800
+
+    logB corrected
+    
+    
+    Former-commit-id: 155a5ae65dbf0f9abf325282bacb6629d3bd6563
+
+[33mcommit 8108a5af5b5177f195e97abf8b1f85a81d56f162[m
+Author: spring <jinsp317@163.com>
+Date:   Tue Jan 5 08:31:48 2021 +0800
+
+    communication & sync success
+    
+    
+    Former-commit-id: 0094816b470d5f4be732a9cc93df567bae2fe63b
+
+[33mcommit bb81700dd8918a04b4d82bcd2ba9764fa4cae8ab[m
+Author: My Name <my-name@chromium.org>
+Date:   Sun Jan 3 08:19:03 2021 +0800
+
+    bluetooth server connection test completed
+    
+    
+    Former-commit-id: 4515f56d1d59c7acadd9e8fc25b30c8c1f79f5c7
+
+[33mcommit 3c196f2e7d5b4b6489dc3cf745100ce75670b27c[m
+Author: spring <jinsp317@163.com>
+Date:   Wed Dec 23 09:00:52 2020 +0800
+
+    bluetooth-serial tracked
+    
+    
+    Former-commit-id: 1f294528829452b169cb01dca5f4034280cedca5
+
+[33mcommit b09a5485f57f729a792d12c2741b267da5d0febd[m
+Author: spring <jinsp317@163.com>
+Date:   Wed Dec 23 08:50:14 2020 +0800
+
+    2.1, 2.3, 2.4 checked and correct
+    
+    
+    Former-commit-id: f21f81e3f38b237dd1ce8b266de481b27dc7ed48
+
+[33mcommit 5a8fb9c3398d535d9e1dfa1edce29b3bc30b7109[m
+Author: spring <jinsp317@163.com>
+Date:   Mon Dec 21 22:35:28 2020 +0800
+
+    yanbian version first step
+    
+    
+    Former-commit-id: 5e85a56ff5fab0c0eaed07b199068e4461e9e322
+
+[33mcommit cede340ded4f87bf5d30250f2fe702560a2785ed[m
+Author: spring <jinsp317@163.com>
+Date:   Wed Dec 16 19:32:50 2020 +0800
+
+    before yanbian version
+
+[33mcommit 8cb3a6569cb78c3a01fcc3a09be018f56d1a9ea7[m
+Author: spring <jinsp317@163.com>
+Date:   Fri Dec 11 20:03:32 2020 +0800
+
+    bluetooth updated...
+
+[33mcommit 735ad92c78c7047381b11d7d42e5e8effa5a1b60[m
+Author: spring <jinsp317@163.com>
+Date:   Tue Dec 8 22:00:41 2020 +0800
+
+    9-check, 10-repair&check, 19 check&repair, 20 checked
+
+[33mcommit 8dc71056e494de39a36a703e182c63d7155caaeb[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: spring <jinsp317@163.com>
+Date:   Sat Dec 5 11:31:22 2020 +0800
+
+    12-05-tslint-fixed
+
+[33mcommit 0aa08977b839e17ad53c206208a66534468bc98a[m
+Author: spring <jinsp317@163.com>
+Date:   Fri Dec 4 23:51:21 2020 +0800
+
+    12-04 first version checked
+
+[33mcommit bb26f4bce93dddd2b25450e77b076ee81d216002[m
+Author: syleehj <syleehj@foxmail.com>
+Date:   Sun Jun 23 00:32:54 2019 +0800
+
+    rename project name kittentracks to daleapp
+
+[33mcommit 343e57ce63a8e68cbcbb46c33048212ae5ad5a0a[m
+Author: syleehj <syleehj@foxmail.com>
+Date:   Fri Jun 21 10:31:13 2019 +0800
+
+    create android bundle
+
+[33mcommit 1c8cccfcbb90f2ee3fc3f036e3ec1c37ffa52f6e[m
+Author: syleehj <syleehj@foxmail.com>
+Date:   Wed Jun 19 17:41:04 2019 +0800
+
+    fullKittenLib
+
+[33mcommit 1e514f7aa91445d52aa602163a9ede1be63bf0be[m
+Author: syleehj <syleehj@foxmail.com>
+Date:   Wed Jun 19 17:40:03 2019 +0800
+
+    fullKitten
+
+[33mcommit 1a19e6d9ef9edbda657c8d4dc95ebaf41051e81c[m
+Author: syleehj <syleehj@foxmail.com>
+Date:   Tue Jun 18 21:52:12 2019 +0800
+
+    Initial commit

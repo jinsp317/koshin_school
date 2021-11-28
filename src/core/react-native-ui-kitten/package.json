@@ -1,0 +1,53 @@
+{
+  "_args": [
+    [
+      "react-native-ui-kitten@4.0.1",
+      "G:\\RHJ\\work\\DaleApp"
+    ]
+  ],
+  "_from": "react-native-ui-kitten@4.0.1",
+  "_id": "react-native-ui-kitten@4.0.1",
+  "_inBundle": false,
+  "_integrity": "sha512-zA6Xg19Eynt9KMn1lnBfAw0wNwok323Fo5MB+oNNx4n0LdJqVB1kyNLRl2U5Q1dT83IPBcJhC7AgwOybTQsb9w==",
+  "_location": "/react-native-ui-kitten",
+  "_phantomChildren": {
+    "react-is": "16.8.6"
+  },
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "react-native-ui-kitten@4.0.1",
+    "name": "react-native-ui-kitten",
+    "escapedName": "react-native-ui-kitten",
+    "rawSpec": "4.0.1",
+    "saveSpec": null,
+    "fetchSpec": "4.0.1"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-ui-kitten/-/react-native-ui-kitten-4.0.1.tgz",
+  "_spec": "4.0.1",
+  "_where": "G:\\RHJ\\work\\DaleApp",
+  "author": {
+    "name": "akveo",
+    "email": "contact@akveo.com"
+  },
+  "bugs": {
+    "url": "https://github.com/akveo/react-native-ui-kitten/issues"
+  },
+  "dependencies": {
+    "@eva-design/dss": "1.0.0",
+    "@eva-design/processor": "1.0.0",
+    "hoist-non-react-statics": "^3.2.1",
+    "lodash.merge": "^4.6.1"
+  },
+  "homepage": "https://github.com/akveo/react-native-ui-kitten#readme",
+  "license": "MIT",
+  "name": "react-native-ui-kitten",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akveo/react-native-ui-kitten.git"
+  },
+  "version": "4.0.1"
+}

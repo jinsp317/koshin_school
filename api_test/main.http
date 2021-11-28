@@ -1,0 +1,45 @@
+//for test server api 
+//*************created by @rihyokju 20190911*************/
+@api_server=http://47.111.144.204/api
+
+//서버상태가 검사
+GET http://47.111.144.204/api/alive
+
+###
+//판본 검사
+GET http://47.111.144.204/api/version
+
+###
+//로그인
+POST {{api_server}}/login 
+content-type: application/json
+
+{
+    "nick": "doctor1",
+    "password": "123456",
+    "hospital_id": 1
+}
+###
+GET {{api_server}}/hospital?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC80Ny4xMTEuMTQ0LjIwNFwvYXBpXC9sb2dpbiIsImlhdCI6MTU3MjE5NzczOSwiZXhwIjoxNTc1Nzk3NzM5LCJuYmYiOjE1NzIxOTc3MzksImp0aSI6IjJCYUx2V0gzQ3hTTTNNQTkiLCJzdWIiOjIsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.m-fxkpEWJ-u9UHKG4ZoUV_H4sNUO5qIz-zIuEOn-IZQ HTTP/1.1
+content-type: application/json; charset=utf-8
+Accept-Charset: utf-8
+//users
+###
+GET {{api_server}}/user?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC80Ny4xMTEuMTQ0LjIwNFwvYXBpXC9sb2dpbiIsImlhdCI6MTU3MTgxNzQzOCwiZXhwIjoxNTc1NDE3NDM4LCJuYmYiOjE1NzE4MTc0MzgsImp0aSI6IjFGMEg4N1BVQkN1Q205ZUQiLCJzdWIiOjIsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.YsB64SD50Wj2OOu0ZEkyqbH9VIY7Q8fe1zMlZ8qQ2IE HTTP/1.1
+content-type: application/json; charset=utf-8
+Accept-Charset: utf-8
+
+//hospital
+###
+GET {{api_server}}/hospital?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC80Ny4xMTEuMTQ0LjIwNFwvYXBpXC9sb2dpbiIsImlhdCI6MTU3MTgwNTc5NywiZXhwIjoxNTc1NDA1Nzk3LCJuYmYiOjE1NzE4MDU3OTcsImp0aSI6InRBUHN4R2U3b2pWcVkwOTMiLCJzdWIiOjIsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.8S3_2CLCtTkrzMW8w05sKpS8vht6a9pkEBLxHGZKYmE 
+content-type: application/json; charset=utf-8
+Accept-Charset: utf-8
+//help
+###
+GET {{api_server}}/department?member=0&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC80Ny4xMTEuMTQ0LjIwNFwvYXBpXC9sb2dpbiIsImlhdCI6MTU3MjY2MTQ4MSwiZXhwIjoxNTc2MjYxNDgxLCJuYmYiOjE1NzI2NjE0ODEsImp0aSI6IkUyQXdaUTNUVEo4ZFg3TEoiLCJzdWIiOjIsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.kTxUXz0_b12r4Nxp_HtvigaZQBFSPPDGPPQ_sLdNvqY 
+content-type: application/json; charset=utf-8
+Accept-Charset: utf-8
+###
+GET http://47.111.144.204/api/help?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC80Ny4xMTEuMTQ0LjIwNFwvYXBpXC9sb2dpbiIsImlhdCI6MTU3MTE5OTc5NSwiZXhwIjoxNTc0Nzk5Nzk1LCJuYmYiOjE1NzExOTk3OTUsImp0aSI6Im56aXZZUDNuMjZxcmN4VFEiLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.qx061bgda1au2k7gzi3AH1-0hriP5sSRm6BXZUkenm4
+
+

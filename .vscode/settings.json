@@ -1,0 +1,7 @@
+{
+  "prettier.disableLanguages": ["vue"],
+  "editor.codeActionsOnSave": {},
+  "java.configuration.updateBuildConfiguration": "disabled",
+  "java.jdt.ls.vmargs": "-Dfile.encoding=utf-8",
+  "search.useGlobalIgnoreFiles": true
+}

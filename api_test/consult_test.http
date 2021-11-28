@@ -1,0 +1,32 @@
+@api_server=http://47.111.144.204/api
+
+###
+//로그인
+POST {{api_server}}/login 
+content-type: application/json
+
+{
+    "nick": "doctor1",
+    "password": "123456",
+    "hospital_id": 1
+}
+###
+//
+GET {{api_server}}/consult?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC80Ny4xMTEuMTQ0LjIwNFwvYXBpXC9sb2dpbiIsImlhdCI6MTU3MDEyMzE2MywiZXhwIjoxNTcwMTI2NzYzLCJuYmYiOjE1NzAxMjMxNjMsImp0aSI6IkF5eFZHZXA2MVU3Yld4REwiLCJzdWIiOjIsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.sycwMlqW0bsJnRE_uv716YlS9Z5OsIH5jbrNLy0v1EI&patient_id=1
+
+ HTTP/1.1
+content-type: application/json; charset=utf-8
+Accept-Charset: utf-8
+
+###
+//添加新记录
+POST {{api_server}}/consult 
+content-type: application/json
+
+{
+"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC80Ny4xMTEuMTQ0LjIwNFwvYXBpXC9sb2dpbiIsImlhdCI6MTU3MDYyNTA5MiwiZXhwIjoxNTcwNjI4NjkyLCJuYmYiOjE1NzA2MjUwOTIsImp0aSI6Imo3clo0Q0tSSmxzeUM3NzAiLCJzdWIiOjIsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.OHmFYubrjLRoZK0DDyw5CqWrFyG4Ua_0xtO0vebqgx4",
+"patient_id":2,
+"request_time": "2019-09-09 10:10:10",
+"consult_time": "2019-09-09 10:10:10",
+"members": "[{'department_id':1, 'user_id': 1}]"
+}

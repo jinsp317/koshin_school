@@ -1,0 +1,58 @@
+@api_server=http://47.111.144.204/api
+
+###
+//로그인
+POST {{api_server}}/login 
+content-type: application/json
+
+{
+    "nick": "admin",
+    "password": "admin",
+    "hospital_id": 1
+}
+###
+//
+GET {{api_server}}/notice?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC80Ny4xMTEuMTQ0LjIwNFwvYXBpXC9sb2dpbiIsImlhdCI6MTU2ODUxOTc2MiwiZXhwIjoxNTY4NTIzMzYyLCJuYmYiOjE1Njg1MTk3NjIsImp0aSI6ImVsamhTWnpPeDQxWk1POHIiLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.4BdQIWOUmdEnG8G9MPYE-sp6yGfKLGWNeH3Y8Yqsnnw
+ HTTP/1.1
+content-type: application/json; charset=utf-8
+Accept-Charset: utf-8
+
+###
+//添加新记录
+POST {{api_server}}/notice 
+content-type: application/json
+
+{
+"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC80Ny4xMTEuMTQ0LjIwNFwvYXBpXC9sb2dpbiIsImlhdCI6MTU2ODYwMDcyMywiZXhwIjoxNTY4NjA0MzIzLCJuYmYiOjE1Njg2MDA3MjMsImp0aSI6IlYwbVByMldXMzY5MXdyRk8iLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.7Zo-DuakGgLpE8eZhyBzNXxEx5n2FGZArb52p8TOQ8Y",
+"patient_id":1,
+"type": 1,
+"notice": "10:10",
+"date": "2019-09-15"
+}
+
+###
+//UPDATE
+POST {{api_server}}/notice/update 
+content-type: application/json
+
+{
+"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC80Ny4xMTEuMTQ0LjIwNFwvYXBpXC9sb2dpbiIsImlhdCI6MTU2ODUyMTQ2MiwiZXhwIjoxNTY4NTI1MDYyLCJuYmYiOjE1Njg1MjE0NjIsImp0aSI6IkExcTBxNW5vSldQSHphWGciLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.3YW0pynEioJUk-fSdlln8EIvjcIPtS8j7jFqQEpjavM",
+"id": 0,
+"patient_id":1,
+"type": 0,
+"notice": "10:10",
+"date": "2019-09-15"
+}
+
+###
+//DELETE
+POST {{api_server}}/notice/delete
+content-type: application/json
+
+{
+"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC80Ny4xMTEuMTQ0LjIwNFwvYXBpXC9sb2dpbiIsImlhdCI6MTU2ODU1NDM2MCwiZXhwIjoxNTY4NTU3OTYwLCJuYmYiOjE1Njg1NTQzNjAsImp0aSI6ImpWek1TV3FjSkNPTW5uUWMiLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.PQyo6eA-dirqn0Oi5sqnt5mIRUBItnskf5HFB1CY55o",
+"id": 13,
+}
+
+
+
